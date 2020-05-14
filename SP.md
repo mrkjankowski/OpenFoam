@@ -41,8 +41,8 @@ The first value tested will be 5.14 m/s (10 knots) and second will be 2.14 m/s (
 
 Results of 1 case (5.14 m/s)
 
-![1-414](C:\Users\User\Desktop\SS\1-414.png)
+![Image description](https://www.google.pl/search?q=google&sxsrf=ALeKk01isc3vob9sdS_a7S9SLlu2PtqdmA:1589480150553&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjY04D--rPpAhWKl4sKHZISCtQQ_AUoA3oECBYQBQ&biw=1920&bih=937#imgrc=lc_utSox5ra2_M)
 
-![2-414](C:\Users\User\Desktop\SS\2-414.png)
+![Image description](link-to-image)
 
-![3-414](C:\Users\User\Desktop\SS\3-414.png)
+![Image description](link-to-image)
