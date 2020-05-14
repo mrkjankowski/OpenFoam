@@ -2,38 +2,29 @@
 
 OpenFOAM is an open source Computation Fluid Dynamics (CFD) solver. It is a C++ toolbox with a large library, allowing for complex models and simulations to be carried out. It also comes with packages to allow parallel computation functionality.
 
-The goal of this project was to learn how to use OpenFoam and ParaView. Two external incompressible 3D flow CFD analyzes based on two different models were performed on a laptop with the following parameters:
-
-Processor: Intel i7 4800qm 8x3.70 Ghz 4R/8W
-
-RAM: 32GB 
-
+The goal of this project was to learn how to use OpenFoam and ParaView. Two external incompressible 3D flow CFD analyzes based on two different models were performed on a laptop with the following parameters:																																														Processor: Intel i7 4800qm 8x3.70 Ghz 4R/8W
+RAM: 32GB 														
 Graphics Card: nVidia Quadro k5100m 8GB
 
-Operating system: Windows 10
-
-and both analyzes were carried out on a docker prepared by konradmalik:
+and both analyzes were carried out on a docker prepared by Konrad Malik:
 https://github.com/konradmalik/openfoam211-docker
 
-The most interesting parameters for me were velocity [m/s] and kinematic pressure [m^2/s^-2] and they are shown on screenshots. All calculations will be made on the simpleFoam solver and then visualized in ParaView which supports OpenFoam. An interesting trick that allows you to easily simulate a moving object at speed X is to immobilize it and set speed X as the initial condition for the speed of fluid.
+Parallel calculations were performed on 4 processors and took less than 15 minutes.
 
-The first simulation was based on a tutorial, which can be found on the OpenFoam website.
+The most interesting parameters for me were velocity [m/s] and kinematic pressure [m^2/s^-2] and they are shown on screenshots. All calculations were made on the simpleFoam solver and then visualized in ParaView which supports OpenFoam. An interesting trick that allows you to easily simulate a moving object at speed X is to immobilize it and set speed X as the initial condition for the speed of fluid.
 
-in the first case the motor travels at a speed of 20m/s ( 72km/h) and in the second 40m/s ( 144km/h)
-
-The second simulation was based on a Libre Mechanics tutorial, which can be found on their site
+The first simulation of submarine was based on a Libre Mechanics tutorial, which can be found on their site.
 
 The external flow CFD analysis are commonly used to study the behavior of objects submerged in fluids, it aims to determine how efficiently a body can move throw the medium and how they affect each other in the process.
 
 Here the fluid it's no confined between wall type conditions such as pipes or confined flow cases, the fluid its free to move around the object and interact only with its external "wet" layer, this means that there is the flow involving the body shape what must be analyzed not the core.
 
 Submarine Model: 
-
 ● Lenght : 70m 
-
 ● Width: 20m 
-
 ● hight: 20m 
+
+It has been meshed in the free "Gmsh" program that supports the mesh implementation into OpenFoam with function "gmshToFoam FileName"
 
 The first value tested will be 5.14 m/s (10 knots) and second will be 2.14 m/s (~4 knots). No additional forces, velocity’s, or pressure points will be configures over the model, the only goal of the case it’s to determine the flow path over the submarine surface. 
 
@@ -41,8 +32,20 @@ The first value tested will be 5.14 m/s (10 knots) and second will be 2.14 m/s (
 
 Results of 1 case (5.14 m/s)
 
-![Image description](https://www.google.pl/search?q=google&sxsrf=ALeKk01isc3vob9sdS_a7S9SLlu2PtqdmA:1589480150553&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjY04D--rPpAhWKl4sKHZISCtQQ_AUoA3oECBYQBQ&biw=1920&bih=937#imgrc=lc_utSox5ra2_M)
+![1-414](C:\Users\User\Desktop\SS\1-414.png)
 
-![Image description](link-to-image)
+![2-414](C:\Users\User\Desktop\SS\2-414.png)
 
-![Image description](link-to-image)
+![3-414](C:\Users\User\Desktop\SS\3-414.png)
+
+Results of 2 case (2.14 m/s):
+
+The second simulation was based on a MotorBike tutorial, which can be found on the OpenFoam website.
+
+It has the function SnappyHexMesh which properly meshes the object and increases the number of elements at the edges.
+
+in the first case the motor travels at a speed of 20m/s ( 72km/h) and in the second 40m/s ( 144km/h)
+
+Results of 1 case ( 20m/s ):
+
+Results of 2 case ( 40m/s ):
