@@ -32,11 +32,11 @@ The first value tested will be 5.14 m/s (10 knots) and second will be 2.14 m/s (
 
 Results of 1 case (5.14 m/s)
 
-![](images/1-414.png)
+![](images/Sub2.png)
 
-![2-414](C:\Users\User\Desktop\SS\2-414.png)
+![](images/Sub1.png)
 
-![3-414](C:\Users\User\Desktop\SS\3-414.png)
+![](images/Sub3.png)
 
 Results of 2 case (2.14 m/s):
 
