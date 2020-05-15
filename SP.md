@@ -13,7 +13,7 @@ Parallel calculations were performed on 4 processors and took less than 15 minut
 
 The most interesting parameters for me were velocity [m/s] and kinematic pressure [m^2/s^-2] and they are shown on screenshots. All calculations were made on the simpleFoam solver and then visualized in ParaView which supports OpenFoam. An interesting trick that allows you to easily simulate a moving object at speed X is to immobilize it and set speed X as the initial condition for the speed of fluid.
 
-## The firts simulation
+## The first simulation
 
 The first simulation of submarine was based on a Libre Mechanics tutorial, which can be found on their site.
 The external flow CFD analysis are commonly used to study the behavior of objects submerged in fluids, it aims to determine how efficiently a body can move throw the medium and how they affect each other in the process.
@@ -56,4 +56,16 @@ in the first case the motor travels at a speed of 20m/s ( 72km/h) and in the sec
 
 ### Results of 1 case ( 20m/s ):
 
+![](images/Motor14.png)
+
+![](images/Motor12.png)
+
+![](images/Motor13.png)
+
 ### Results of 2 case ( 40m/s ):
+
+![](images/Motor21.png)
+
+![](images/Motor22.png)
+
+![](images/Motor23.png)
