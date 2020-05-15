@@ -19,7 +19,7 @@ The external flow CFD analysis are commonly used to study the behavior of object
 
 Here the fluid it's no confined between wall type conditions such as pipes or confined flow cases, the fluid its free to move around the object and interact only with its external "wet" layer, this means that there is the flow involving the body shape what must be analyzed not the core.
 
-Submarine Model: 
+Submarine Model dimensions: 
 ● Lenght : 70m 
 ● Width: 20m 
 ● hight: 20m 
@@ -39,6 +39,12 @@ Results of 1 case (5.14 m/s)
 ![](images/Sub13.png)
 
 Results of 2 case (2.14 m/s):
+
+![](images/1-414.png)
+
+![](images/2-414.png)
+
+![](images/3-414.png)
 
 The second simulation was based on a MotorBike tutorial, which can be found on the OpenFoam website.
 
