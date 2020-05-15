@@ -28,7 +28,7 @@ Submarine Model dimensions:
 
 It has been meshed in the free "Gmsh" program that supports the mesh implementation into OpenFoam with function "gmshToFoam MeshName"
 
-The first value tested will be 5.14 m/s (10 knots) and second will be 2.14 m/s (~4 knots). No additional forces, velocity’s, or pressure points will be configures over the model, the only goal of the case it’s to determine the flow path over the submarine surface. 
+The first value tested will be 5.14 m/s (10 knots) and second will be 2.14 m/s (~4 knots). No additional forces, velocity’s, or pressure points will be configured over the model, the only goal of the case it’s to determine the flow path over the submarine surface. 
 
 
 
