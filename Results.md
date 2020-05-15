@@ -70,3 +70,7 @@ In the first case the motor travels at a speed of 20m/s ( 72km/h) and in the sec
 ![](images/Motor22.png)
 
 ![](images/Motor23.png)
+
+### Conclusion
+
+In each image you can see that the object is clearly divided into finite elements, but nevertheless it can be assumed that the results overlap with reality to some extent. To get a smaller error, you would need to increase the number of elements, but this would increase the calculation time. This problem could be solved by dividing the test object in half due to the presence of the symmetry plane.
