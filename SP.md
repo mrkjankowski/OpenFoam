@@ -2,11 +2,15 @@
 
 OpenFOAM is an open source Computation Fluid Dynamics (CFD) solver. It is a C++ toolbox with a large library, allowing for complex models and simulations to be carried out. It also comes with packages to allow parallel computation functionality.
 
-The goal of this project was to learn how to use OpenFoam and ParaView. Two external incompressible 3D flow CFD analyzes based on two different models were performed on a laptop with the following parameters:																															Processor: Intel i7 4800qm 8x3.70 Ghz 4R/8W
+The goal of this project was to learn how to use OpenFoam and ParaView. Two external incompressible 3D flow CFD analyzes based on two different models were performed on a laptop with the following parameters:				
+
+Processor: Intel i7 4800qm 8x3.70 Ghz 4R/8W
+
 RAM: 32GB 														
+
 Graphics Card: nVidia Quadro k5100m 8GB
 
-and both analyzes were carried out on a docker prepared by Konrad Malik:
+Both analyzes were carried out on a docker prepared by Konrad Malik:
 https://github.com/konradmalik/openfoam211-docker
 
 Parallel calculations were performed on 4 processors and took less than 15 minutes.
