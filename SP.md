@@ -4,11 +4,11 @@ OpenFOAM is an open source Computation Fluid Dynamics (CFD) solver. It is a C++ 
 
 The goal of this project was to learn how to use OpenFoam and ParaView. Two external incompressible 3D flow CFD analyzes based on two different models were performed on a laptop with the following parameters:				
 
-Processor: Intel i7 4800qm 8x3.70 Ghz 4R/8W
+● Processor: Intel i7 4800qm 8x3.70 Ghz 4R/8W
 
-RAM: 32GB 														
+● RAM: 32GB 														
 
-Graphics Card: nVidia Quadro k5100m 8GB
+● Graphics Card: nVidia Quadro k5100m 8GB
 
 Both analyzes were carried out on a docker prepared by Konrad Malik:
 https://github.com/konradmalik/openfoam211-docker
@@ -28,7 +28,7 @@ Submarine Model dimensions:
 ● Width: 20m 
 ● hight: 20m 
 
-It has been meshed in the free "Gmsh" program that supports the mesh implementation into OpenFoam with function "gmshToFoam FileName"
+It has been meshed in the free "Gmsh" program that supports the mesh implementation into OpenFoam with function "gmshToFoam MeshName"
 
 The first value tested will be 5.14 m/s (10 knots) and second will be 2.14 m/s (~4 knots). No additional forces, velocity’s, or pressure points will be configures over the model, the only goal of the case it’s to determine the flow path over the submarine surface. 
 
