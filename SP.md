@@ -55,13 +55,11 @@ It has the function SnappyHexMesh which properly meshes the object and increases
 in the first case the motor travels at a speed of 20m/s ( 72km/h) and in the second 40m/s ( 144km/h)
 
 ### Results of 1 case ( 20m/s ):
-
 ![](images/Motor14.png)
 
 ![](images/Motor12.png)
 
 ![](images/Motor13.png)
-
 ### Results of 2 case ( 40m/s ):
 
 ![](images/Motor21.png)
