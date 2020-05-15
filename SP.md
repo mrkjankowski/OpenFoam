@@ -2,7 +2,7 @@
 
 OpenFOAM is an open source Computation Fluid Dynamics (CFD) solver. It is a C++ toolbox with a large library, allowing for complex models and simulations to be carried out. It also comes with packages to allow parallel computation functionality.
 
-The goal of this project was to learn how to use OpenFoam and ParaView. Two external incompressible 3D flow CFD analyzes based on two different models were performed on a laptop with the following parameters:																																														Processor: Intel i7 4800qm 8x3.70 Ghz 4R/8W
+The goal of this project was to learn how to use OpenFoam and ParaView. Two external incompressible 3D flow CFD analyzes based on two different models were performed on a laptop with the following parameters:																															Processor: Intel i7 4800qm 8x3.70 Ghz 4R/8W
 RAM: 32GB 														
 Graphics Card: nVidia Quadro k5100m 8GB
 
@@ -49,10 +49,11 @@ The first value tested will be 5.14 m/s (10 knots) and second will be 2.14 m/s (
 ## The second simulation
 
 The second simulation was based on a MotorBike tutorial, which can be found on the OpenFoam website.
+As in the previous case it aims to determine how efficiently a body can move throw the medium.
 
-It has the function SnappyHexMesh which properly meshes the object and increases the number of elements at the edges.
+In tutorial we can find the function SnappyHexMesh which properly meshes the object and increases the number of elements at the edges.
 
-in the first case the motor travels at a speed of 20m/s ( 72km/h) and in the second 40m/s ( 144km/h)
+In the first case the motor travels at a speed of 20m/s ( 72km/h) and in the second 40m/s ( 144km/h)
 
 ### Results of 1 case ( 20m/s ):
 ![](images/Motor14.png)
